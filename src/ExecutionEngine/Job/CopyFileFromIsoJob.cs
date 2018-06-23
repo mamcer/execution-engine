@@ -18,17 +18,8 @@ namespace ExecutionEngine.Job
             Tasks.Add(new IsoUnmountTask(_resourceRequest));
         }
 
-        public override List<ResourceRequest> ResourceRequests
-        {
-            get 
-            {
-                return new List<ResourceRequest> { _resourceRequest }; 
-            }
-        }
+        public override List<ResourceRequest> ResourceRequests => new List<ResourceRequest> { _resourceRequest };
 
-        public override List<string> FileRequests
-        {
-            get { return new List<string>(); }
-        }
+        public override List<string> FileRequests => new List<string>();
     }
 }

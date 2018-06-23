@@ -14,15 +14,9 @@ namespace ExecutionEngine.Resource
 
         public bool IsIdle { get; set; }
 
-        public ResourceType Type
-        {
-            get { return ResourceType.VirtualUnit; }
-        }
+        public ResourceType Type => ResourceType.VirtualUnit;
 
-        public VirtualCloneDriveWrapper VirtualDrive
-        {
-            get { return _virtualDrive; }
-        }
+        public VirtualCloneDriveWrapper VirtualDrive => _virtualDrive;
 
         public int ResourceId { get; set; }
     }

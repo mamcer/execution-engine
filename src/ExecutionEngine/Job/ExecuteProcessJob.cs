@@ -11,14 +11,8 @@ namespace ExecutionEngine.Job
             Tasks.Add(new ExecuteProcessTask(processPath, arguments));
         }
 
-        public override List<ResourceRequest> ResourceRequests
-        {
-            get { return new List<ResourceRequest>(); }
-        }
+        public override List<ResourceRequest> ResourceRequests => new List<ResourceRequest>();
 
-        public override List<string> FileRequests
-        {
-            get { return new List<string>(); }
-        }
+        public override List<string> FileRequests => new List<string>();
     }
 }
