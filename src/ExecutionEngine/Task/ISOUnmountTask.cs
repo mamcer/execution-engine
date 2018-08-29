@@ -12,7 +12,7 @@ namespace ExecutionEngine.Task
             get
             {
                 var virtualDriveResource = _resourceRequest.Resource as VirtualDriveResource;
-                return virtualDriveResource != null ? virtualDriveResource.VirtualDrive : null;
+                return virtualDriveResource?.VirtualDrive;
             }
         }
 

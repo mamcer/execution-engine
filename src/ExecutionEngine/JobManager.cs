@@ -4,11 +4,11 @@ namespace ExecutionEngine
 {
     public class JobManager
     {
-        private List<Job.Job> _jobs;
+        private readonly List<Job.Job> _jobs;
 
         private int _nextJobId;
 
-        private ResourceManager _resourceManager;
+        private readonly ResourceManager _resourceManager;
 
         public JobManager(ResourceManager resourceManager)
         {
