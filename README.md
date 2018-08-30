@@ -6,7 +6,7 @@ In `original` branch you will find the original source code for this application
 
 ## Description
 
-In different side projects I ended implementing and executing different little 'tasks', for example with ISO Finder. At that moment it sounds like a good idea to generalize it in some kind of reusable task manager engine. I invest some hours, was fun but it ended adding little real value.
+In different side projects I ended implementing and executing different little 'tasks', for example with ISO Finder. At that moment it sounded like a good idea to generalize it in some kind of reusable task manager engine. I invested some hours, was fun but it ended adding little real value.
 
 ## Screenshot
 
